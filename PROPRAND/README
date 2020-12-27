@@ -1,0 +1,10 @@
+The proprand scripts allow you to select a proportion of reads from goodfna files that are in the same folder.
+You must list the coordinates you want to select in an input file called "coordinates"
+You must have the goodfna files in the same folder
+File naming is extremely important - i.e. you MUST have the name of the coordinates in the goodfna filename that is downloaded from GLUE.
+Don't put any extra files in your folder, especially run files
+
+To run the scripts, just type sh prop_diversity_run.sh
+
+Emma Thomson emma.thomson@glasgow.ac.uk
+26th October 2020
