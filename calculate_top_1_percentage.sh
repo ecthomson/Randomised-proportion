@@ -1,4 +1,4 @@
-#Solution for pulling out the top 1% of variants only
+#Solution for pulling out the variants present at >1% only
 #Emma Thomson 26th June 2020
 #Starting file must be of a similar input each time with no variation in delimiters
 

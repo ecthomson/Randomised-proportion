@@ -2,6 +2,8 @@
 #Need to have the .fna files and the geno.stats.sorted files as input in same folder
 #Genotyping carried out using create kmers script by Sreenu Vattipally
 #Emma Thomson September 2020 emma.thomson@glasgow.ac.uk
+#QC step needed for confirming genotype of .sam files - NOTE 060102021 ET/MN 
+
 
 #Take out the last 5 lines from the geno.stats file and separate into two files
 for genstats in *.geno.stats.sorted; do tail -5 $genstats | cut -f 1 > $genstats\.top5_num_acc; done

@@ -5,7 +5,7 @@
 #Do NOT put any other junk, especially run files in the same folder
 #Emma Thomson emma.thomson@glasgow.ac.uk 26th October 2020
 
-cp /home2/HCV2/Uganda/Scripts/proprand_infile.sh .
+cp /home2/HCV2/Uganda/Scripts/Randomised-proportion/proprand_infile.sh .
 while read coord; do sed "s/COORDINATES/$coord/g" proprand_infile.sh>proprand_$coord.sh; done <coordinates
 rm -rf runlist.sh *randomised.all
 while read coord; do echo proprand_$coord.sh >>runlist.sh; done <coordinates
